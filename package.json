@@ -1,6 +1,7 @@
 {
   "name": "talkish-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Talkish Real-time Anonymous Chat Backend",
   "main": "server.js",
   "scripts": {
@@ -11,8 +12,5 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "socket.io": "^4.7.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
   }
 }
